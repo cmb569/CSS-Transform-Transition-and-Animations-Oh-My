@@ -2,7 +2,7 @@
 button{
 
     background-color:ghostwhite;
-    transition: > all 500ms cubic-bezier(0.6, -0.28, 0.13, 1.12);
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.13, 1.12);
 
 }
 
@@ -11,6 +11,14 @@ button:hover{
     background-color:blueviolet;
 }
 
+.transform{
+    transition-duration: 1s;
+}
+
+.transform:hover{
+    background-color: cornflowerblue;
+    color: ghostwhite;
+}
 img{
     width:80%;
     opacity: 2s;
