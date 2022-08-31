@@ -28,10 +28,9 @@ nav {
 }
 
 @keyframes top {
-  from {
-background-color:rebeccapurple;
+  from {transform: rotate(0)
   }
-  to {transform:  translateY(35px) rotate(45deg);}
+  to {transform:  translateY(34px) rotate(45deg);}
 }
 
 @keyframes middle {
@@ -40,6 +39,6 @@ background-color:rebeccapurple;
 }
 
 @keyframes bottom {
-  from {}
-  to {transform:  translateY(-35px) rotate(-45deg);}
+  from {transform: rotate(0)}
+  to {transform:  translateY(-34px) rotate(-45deg);}
 }
