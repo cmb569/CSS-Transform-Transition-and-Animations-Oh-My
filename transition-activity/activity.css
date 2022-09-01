@@ -8,7 +8,7 @@ button{
 
 button:hover{
 
-    background-color:blueviolet;
+    background-color:cornflowerblue;
 }
 
 .transform{
@@ -19,6 +19,7 @@ button:hover{
     background-color: cornflowerblue;
     color: ghostwhite;
 }
+
 img{
     width:80%;
     opacity: 2s;
